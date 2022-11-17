@@ -1,0 +1,11 @@
+{
+  "name": "uniswap-v2-usage-example",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@openzeppelin/contracts": "^4.8.0",
+    "@uniswap/sdk": "^3.0.3",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-sdk": "^3.0.1",
+    "hardhat": "^2.12.2"
+  }
+}
