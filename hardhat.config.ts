@@ -1,8 +1,10 @@
 import { HardhatUserConfig } from 'hardhat/config';
 import '@nomicfoundation/hardhat-toolbox';
 
-const ALCHEMY_KEY = 'PUT_YOUR_API_KEY_HERE';
-const BLOCK_NUMBER = 15984035;
+require('dotenv-defaults').config();
+
+const ALCHEMY_KEY: string = process.env.ALCHEMY_API_KEY
+const BLOCK_NUMBER: number = parseInt(process.env.BLOCK_NUMBER);
 
 const config: HardhatUserConfig = {
     solidity: '0.8.17',

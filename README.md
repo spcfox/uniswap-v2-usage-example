@@ -6,7 +6,8 @@ This is a simple example of how to create your own token and use it with Uniswap
 To use, you need to install [Node.js](https://nodejs.org)
 and get API key for [Alchemy](https://www.alchemy.com)
 
-1. Put your Alchemy API key in [hardhat.config.ts](hardhat.config.ts)
+1. Put your Alchemy API key in environment variable `ALCHEMY_API_KEY`. You can use `.env` file for that.
+      Also, you can set `BLOCK_NUMBER` environment variable to specify the block number to fork from.
 2. `npm install`
 3. `npx hardhat test`
 
